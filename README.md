@@ -64,4 +64,4 @@ Grand‌ ‌Valley‌ ‌State‌ ‌University,‌‌ ‌*Allendale‌ ‌MI‌
 
 ## About Me
 
-I have passion for crypto curriences specifically bitcoin I have implemented a HD wallet using BIP 84 in rust and using bitcoinJ.
+I have passion for crypto curriences specifically bitcoin I have implemented a HD wallet using BIP 84 in [rust](https://github.com/Ashleyhen/rust-bitcoin-wallet/tree/dev) and using bitcoinJ.
