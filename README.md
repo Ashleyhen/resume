@@ -67,4 +67,5 @@ Grand‌ ‌Valley‌ ‌State‌ ‌University,‌‌ ‌*Allendale‌ ‌MI‌
 I have passion for crypto curriences specifically bitcoin I have implemented a HD wallet using BIP 84 in [rust](https://github.com/Ashleyhen/rust-bitcoin-wallet/tree/dev) and using bitcoinJ.
 
 ## links
+
 * linkedin https://www.linkedin.com/in/ashley-hendrickson-92746b172/
