@@ -68,7 +68,7 @@ I have passion for crypto curriences specifically bitcoin I have implemented a H
 
 [![Coding with Bitcoin part 2 | Create a HD Bitcoin Wallet in rust](https://github.com/bitcoin/bips/blob/master/bip-0032/derivation.png)](https://www.youtube.com/watch?v=ld-X-t3QEQE)
 
-my youtube tutorial
+click the link above to view my bitcoin tutorial
 
 ## links
 
