@@ -56,7 +56,8 @@ HOA‌ ‌was‌ ‌my‌ ‌first‌ ‌project‌ ‌as‌ a ‌intern,‌ ‌
 * Building‌ ‌an‌ ‌effective‌ ‌and‌ ‌efficient‌ ‌SpringBoot‌ ‌back-end‌ ‌using‌ ‌JDBC,‌ ‌JPA‌ ‌to‌ ‌interact‌ ‌with‌ ‌an‌ ‌SQL‌ database.‌‌ ‌
 * ‌MySQL‌ ‌DBeaver‌ ‌to‌ ‌migrate,‌ ‌organize‌ ‌and‌ ‌create‌ ‌a‌ ‌database‌‌ ‌
 * Multi-Module‌ ‌maven‌ ‌project‌ ‌for‌ ‌managing‌ ‌application‌ ‌dependency‌
-‌*‌ Integrated‌ ‌AWS‌ ‌Lambda‌ ‌into‌ ‌the‌ ‌CDK‌ ‌while‌ ‌using‌ ‌cloud‌ ‌watch‌ ‌for‌ ‌debugging‌ ‌
+* Integrated‌ ‌AWS‌ ‌Lambda‌ ‌into‌ ‌the‌ ‌CDK‌ ‌while‌ ‌using‌ ‌cloud‌ ‌watch‌ ‌for‌ ‌debugging‌ ‌
+
 
 ## Education
 
