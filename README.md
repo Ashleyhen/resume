@@ -2,13 +2,25 @@
 
 (517)‌ ‌240-3203‌ ‌|‌ ‌ashleygabrielhendrickson@gmail.com‌‌ ‌
 
-## Ford,‌ ‌Dearborn |   MI‌ July‌ ‌2021‌ ‌-‌ ‌Present‌ ‌
+## Kohls, Menomonee Falls WI | June 2022 - present
 
 ### Spring boot developer
 
-### work with the global‌ ‌ordering‌ ‌and Logistics team
+### worked with the Order Life cycle Management team
 
-Develop‌ ‌backend‌ ‌‌microservices‌ ‌for‌ global vehicle‌ ‌trade, validating‌ ‌specific‌ features‌ to ensure that a vehicle exist before a order is placed. To log data I used a aspect oriented approach such as AspectJ and spring properites.
+Developed Spring boot microservice used to manage and track orders.
+
+Used Splunk and Dynatrace to log and debug issues in staging and production. I used kafka to manage events between micro services. The services are deployed on kubernetes and managed and maintained by openshift as the cloud provider. Data is stored in Mongo and secrets are stored in a vault.
+
+I'm helping migrate from a legacy application to a new robust system. I help architect and solve complex issues with the other engineer on the team.  
+
+## Ford,‌ ‌Dearborn MI‌ | July‌ ‌2021‌ ‌-‌ ‌May 20‌22 ‌
+
+### Spring boot developer
+
+### worked with the Global‌ ‌Ordering‌ ‌and Logistics team
+
+Develop‌ ‌backend‌ ‌‌microservices‌ ‌for‌ global vehicle‌ ‌trade, validating‌ ‌specific‌ features‌ to ensure that a vehicle exist before a order is placed.
 
 ‌Hibernate‌ ‌and‌ ‌persistence‌ ‌is used interact‌ ‌with‌ ‌the‌ ‌database‌ ‌and ‌rabbit‌ ‌MQ‌ ‌and Apache Kafka is used to handle different Queues.  unit test are handled using mockito, version control is handled by github and gradle automates builds and manage dependencies. Use the SOLD principes of Object Programing when writing code
 ‌‌
@@ -57,7 +69,6 @@ HOA‌ ‌was‌ ‌my‌ ‌first‌ ‌project‌ ‌as‌ a ‌intern,‌ ‌
 * ‌MySQL‌ ‌DBeaver‌ ‌to‌ ‌migrate,‌ ‌organize‌ ‌and‌ ‌create‌ ‌a‌ ‌database‌‌ ‌
 * Multi-Module‌ ‌maven‌ ‌project‌ ‌for‌ ‌managing‌ ‌application‌ ‌dependency‌
 * Integrated‌ ‌AWS‌ ‌Lambda‌ ‌into‌ ‌the‌ ‌CDK‌ ‌while‌ ‌using‌ ‌cloud‌ ‌watch‌ ‌for‌ ‌debugging‌ ‌
-
 
 ## Education
 
