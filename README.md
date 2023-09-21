@@ -10,7 +10,7 @@
 
 Developed Spring boot microservice used to manage and track orders.
 
-Used Splunk and Dynatrace to log and debug issues in staging and production. I used kafka to manage events between micro services. The services are deployed on kubernetes and managed and maintained by openshift as the cloud provider. Data is stored in Mongo and secrets are stored in a vault.
+Used Splunk and Dynatrace to log and debug issues in staging and production. I used kafka to manage events between micro services. The services are deployed on kubernetes and managed and maintained by openshift as the cloud provider. Data is stored in Mongo and secrets are stored in a vault. Unit test are written with mockito integration use cucumber 
 
 I'm helping migrate from a legacy application to a new robust system. I help architect and solve complex issues with the other engineer on the team.  
 
