@@ -6,7 +6,7 @@
 
 ### Spring boot developer
 
-### IFA Inventory Forcast Allocation team
+### IFA Inventory Forecast Allocation team
 
 Replacing third party forecasting and inventory application's with much better systems that Kohl's can tailor to its specific needs. When IFA receives a purchase order from a analysis our system takes that purchase order, and sends it through a forecasting system to compute the optimal way to break apart, and allocate that order to stores where it will sell best. Our system can break orders down to the size level and allocate merchandise of size small, to stores with a small size bias for that specific item saving the store alot.
 
@@ -19,15 +19,19 @@ Replacing third party applications that the store depends on. Tracking "buy onli
 * 5 solid principles of oop
 * cucumber - automated integration test
 * dynatrace
+* splunk
 * jira‌ ‌‌‌ ‌‌ ‌
 * kafka, zoo keeper and schema registries
 * mockito - unit test
 * openshift ‌
 * oracle sql‌‌
-* splunk
 * spring batch
-* test driven development
+* Test Driven Development
 * ‌spring boot micro services
+* Pair Programming
+* nodejs micro services
+* GCP
+* service now
 
 ------------------
 
