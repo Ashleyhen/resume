@@ -10,17 +10,27 @@
 
 Replacing third party forecasting and inventory application's with much better systems that Kohl's can tailor to its specific needs. When IFA receives a purchase order from a analysis our system takes that purchase order, and sends it through a forecasting system to compute the optimal way to break apart, and allocate that order to stores where it will sell best. Our system can break orders down to the size level and allocate merchandise of size small, to stores with a small size bias for that specific item saving the store alot.
 
-* The project used Spring Boot Micro services with a REST API's that were used to optimize and forecast the sales of purchase orders, given specific configurations and constraints provided by the vendors and the distribution centers. The project also had a batch service that would run daily synchronizing DCsplit, DCstore, and direct to store orders. Our services would receive purchase orders, format and validate them before sending them to a kafka topic which would be consumed by a optimization service which would optimize the purchase orders for the skunet forecasting model. We used Gitlab as the source control and for our CICD pipeline, deploying to open-shift we used a KADO model which is similar to git workflow. I used Dynatrace to debug and monitor deployments and debug issues that occured, as well as gather metrics. 
-
-* I lead the initiative to migrate allocation mechindise hierachy service away from Merchadise Department Manager service which we were retiring. I wrote up a design document went over it with my manager and my pair. I worked with teams consuming from our service and with teams who we consumed from. 
+* Project used Spring Boot Microservices with REST APIs which were used to optimize and 
+forecast sales of purchase orders, given specific configurations and constraints provided by the vendors and distribution centers.
+* Project also had a batch service that would run daily synchronizing DC Split, DC Store, and direct-to-store orders. Our services would receive purchase orders, format, and validate them before sending them to a Kafka topic which would be consumed by an optimization service which would optimize the purchase orders for the SKU net forecasting model. 
+* Used Gitlab as the source control and for our CI/CD pipeline, deployed it to OpenShift we used a 
+KADO model which is similar to Git workflow. 
+* Utilized Dynatrace to debug and monitor deployments as well as debug issues that occurred and gathered metrics.
+* Led the initiative to migrate allocation merchandise hierarchy service away from Merchandise 
+Department Manager service which we were retiring. 
+* Wrote design document and went over it with manager and pair programming partner. 
 
 ### OLM Order Life cycle Management team
 
 Replacing third party applications that the store depends on. Tracking "buy online pick up in store" BOPUS orders and, buy online ship to store BOSS orders, OLM tracks orders in the store fulfillment center and orders in the store that had to be shipped to another store. We also helped with building out the software associates use in there zebra device to find orders in the store.       
 
-* The project used Spring Boot Micro services with a REST API's that were used track orders from the destribution centers to the store, Orders would be updated as they left the store fulfillment center. I worked on marking orders as lost, updating orders, printing order labeles and sending email order confirmations. We used Gitlab as the source control and for our CICD pipeline, deploying to open-shift we used a KADO model which is similar to git workflow. I used Dynatrace to debug and monitor deployments and debug issues that occured, as well as gather metrics. 
 
-* During our migration I designed a way to compare sterling orders with OLM orders by adding all expected outputs to a json file. The validator service would run once a day which would validating the expeced sterling results our equal to our OLM result. The unexpected results would be saved to a mongo table.    
+* Project used Spring Boot Microservices with REST APIs which were used to track orders from the distribution centers to the store. Orders would be updated as they left the store fulfillment center. 
+* I worked on marking orders as lost, updating orders, printing order labels, and sending E-mail order 
+confirmations.
+* Used Gitlab as the source control and for our CI/CD pipeline, deployed to OpenShift using a KADO model (similar to git workflow). 
+* Utilized Dynatrace to debug and monitor deployments and debug issues that occurred. Also used it to gather metrics. 
+* During migration, I designed a way to compare sterling orders with OLM orders by adding all expected outputs to a JSON file. The validator service would run once a day which would validate the expected sterling results and equal to our OLM result. The unexpected results would be saved to a Mongo table. 
 
 ### Acquired‌ ‌Skills‌ ‌
 
