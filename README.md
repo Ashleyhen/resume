@@ -2,7 +2,7 @@
 
 (517)‌ ‌240-3203‌ ‌|‌ ‌ashleygabrielhendrickson@gmail.com‌‌ ‌
 
-## Kohls, Menomonee Falls WI | June 2022 - present
+## Kohls, Menomonee Falls WI | June 2022 - February 2024
 
 ### Spring boot developer
 
@@ -34,23 +34,36 @@ confirmations.
 
 ### Acquired‌ ‌Skills‌ ‌
 
-* 5 solid principles of oop
-* cucumber - automated integration test
-* dynatrace
-* gcp
-* jira‌ ‌‌‌ ‌‌ ‌
-* kafka, zoo keeper and schema registries
-* kubernetes
-* mockito - unit test
-* nodejs micro services
-* openshift ‌
-* oracle sql‌‌
-* pair programming
-* service now
-* splunk
-* spring batch
-* test driven development
-* ‌spring boot micro services
+* Cloud 
+    - gcp 
+    - openshift
+    - kubernetes
+    - helm
+* Testing
+    - cucumber - automated integration test
+    - mockito - unit test
+    - swagger
+* Monitoring
+    - dynatrace ‌
+    - splunk
+* Work Environment
+    - pair programming
+    - TDD (test driven development)
+    - jira‌ ‌‌‌ ‌‌ ‌
+    - agile
+    - pipeline gitlab
+    - production deployment (service now)
+* Backend tools
+    - kafka, zoo keeper and schema registries
+    - nodejs 
+    - spring batch
+    - ‌spring boot (Java) 
+    - micro services
+* Databases
+    - Oracle SQL (Relational DB)
+    - postgresql (Relational DB)
+    - Mongo DB (Non Relational DB)
+
 
 ------------------
 
@@ -64,11 +77,24 @@ Migrate and maintain legacy systems. The project I worked on was JMC to Mexico, 
 ‌
 ### Acquired‌ ‌Skills‌ ‌
 
-* jira‌ ‌‌‌ ‌‌ ‌
-* openshift ‌
-* rabbit mq
-* sql‌‌
-* ‌spring boot micro services
+
+* Cloud 
+    - pivotal cloud foundry 
+* Monitoring
+    - splunk
+* Work Environment
+    - TDD (test driven development)
+    - agile
+    - git workflow
+    - pipeline gitlab
+* Backend tools
+    - RabbitMQ
+    - ‌spring boot (Java) 
+    - micro services
+    - rabbit mq
+* Databases
+    - Oracle SQL (Relational DB)
+
 
 ------------------
 
@@ -90,15 +116,26 @@ HOA‌ ‌was‌ ‌my‌ ‌first‌ ‌project‌ ‌as‌ a ‌intern,‌ ‌
 
 ### Acquired‌ ‌Skills‌ ‌
 
-* aws‌ ‌lambda‌ ‌‌‌cdk‌
-* material‌ ‌ui,‌ ‌bootstrap,‌ ‌‌material‌ ‌icons,‌ ‌flexbox,‌ ‌grid‌ ‌layout‌‌ ‌
-* multi-module‌ ‌maven‌ ‌project‌
-* spring boot
-* sql ‌
-* testing‌ ‌and‌ ‌auto-generating‌ ‌rest‌ ‌api‌ ‌with‌ ‌swagger‌ ‌ ‌
-* ‌angular‌ ‌with typescript
-* ‌properly‌ ‌maintained‌ ‌angular‌ ‌component‌ ‌state‌ ‌and‌ ‌life‌ ‌cycle‌ ‌hooks.‌‌ ‌
-* ‌trello‌‌ task manager‌ ‌tasks‌ ‌for‌ ‌agile‌ ‌development‌ ‌with‌ ‌two-week‌ ‌sprint‌ ‌intervals‌ ‌
+* Cloud
+    - aws‌ ‌lambda‌ ‌‌‌cdk‌
+    - sqs
+* front end
+    - material‌ ‌ui,‌ material‌ ‌icons,‌‌ ‌
+    - bootstrap,‌ flexbox,‌ ‌grid‌ ‌layout‌‌ ‌
+    - Angular Typescript
+* back end
+    - multi-module‌ ‌maven‌ ‌project‌
+    - spring boot (Java) 
+    - testing‌ ‌and‌ ‌auto-generating‌ ‌rest‌ ‌api‌ ‌with‌ ‌swagger‌ ‌ ‌
+* Work Environment
+    - TDD (test driven development)
+    - agile
+    - git workflow
+    - pipeline gitlab
+    - ‌trello‌‌ task manager‌ ‌ ‌ ‌
+    - agile‌ ‌development‌ ‌‌ ‌
+* Database
+    - postgresql ‌
 
 --------------------------------
 
