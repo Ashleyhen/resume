@@ -2,6 +2,58 @@
 
 (517)‌ ‌240-3203‌ ‌|‌ ‌ashleygabrielhendrickson@gmail.com‌‌ ‌
 
+## Home Depot | February 2024 - February 2025 (Contracted)
+
+### Spring boot developer
+
+### Transportation Tender and Tracking team
+
+Manages a suite of applications and processes to optimize transportation planning and execution around carrier sourcing selection (lower costs and improved service) and tracking of shipment status forecasting, milestones and confirmations (enhance speed and visibility of shipments).
+
+* Suite of Spring boot microservices deployed across GCP and PCF platforms using Oracle DB and Postgres database.
+* Legacy Applications were deployed and managed by PCF
+* oauth2 and vantage service management
+* Service used Rest API's, schedulers, publishers and subscribers.
+* Used GitHub as source control and for CI/CD pipelines, deployed to GCP workloads.
+* Utilized Google logs and looker to debug issues.
+* Monitoring was done Prometheus and google health checks, verify the pod was up and running
+* Alertings were sent using google alerting and siren
+* upgrade legacy service from java 8 to java 21
+* Migrated multiple services to another team space requiring terraform changes, configmap changes and migrating from oracle db to alloydb, GLBC configuration and multiple service request.
+* Wrote design document and went over technical designs with managers in miro.
+
+ ### Acquired‌ ‌Skills‌ ‌
+
+* Cloud 
+    - gcp 
+    - pcf
+    - kubernetes
+    - helm
+    - terriaform 
+* Testing
+    - mockito - unit test
+    - swagger
+* Monitoring
+    - prometheus  ‌
+    - siren
+    - google alerts
+* Work Environment
+    - TDD (test driven development)
+    - jira‌ ‌‌‌ ‌‌ ‌
+    - agile
+    - github actions
+    - production deployment (service now)
+* Backend tools
+    - pub/subs
+    - ‌spring boot (Java) 
+    - micro services
+* Databases
+    - Oracle SQL (Relational DB)
+    - postgresql (Relational DB)
+    - alloydb (Relational DB)
+
+
+
 ## Kohls, Menomonee Falls WI | June 2022 - February 2024
 
 ### Spring boot developer
@@ -67,7 +119,7 @@ confirmations.
 
 ------------------
 
-## Ford,‌ ‌Dearborn MI‌ | July‌ ‌2021‌ ‌-‌ ‌May 20‌22 ‌
+## Ford,‌ ‌Dearborn MI‌ | July‌ ‌2021‌ ‌-‌ ‌May 20‌22 (Contracted)
 
 ### Spring boot developer
 
