@@ -1,10 +1,65 @@
-# Ashley Hendrickson | Java Engineer
+# Ashley Hendrickson | Java Spring Boot Engineer
 
 (517)‌ ‌240-3203‌ ‌|‌ ‌ashleygabrielhendrickson@gmail.com‌‌ ‌
 
+## Home Depot | February 2024 - February 2025 (Contracted)
+
+### Java Spring Boot Engineer
+
+### Transportation Tender and Tracking team
+
+Manages a suite of applications and processes to optimize transportation planning and execution around carrier sourcing selection (lower costs and improved service) and tracking of shipment status forecasting, milestones and confirmations (enhance speed and visibility of shipments).
+
+* Suite of Spring boot microservices deployed across GCP and PCF platforms using Oracle DB and Postgres database.
+* Legacy Applications like Transportation Management Service (TMS) were deployed and managed by PCF. 
+* Carrier's authenticated using oauth2 and were authorized to call specific endpoints using there LDAP roles managed by vantage service management
+* Services used Rest API's, schedulers, publishers and subscribers through out the project's. Just a few examples: 
+    - Delivery Network Administration (DNA) would send us xlsx file with DNA Lanes that needed to be uploaded via Rest API. Once a day the schedular would trigger an create those lanes in a postgres table. If Any of the lanes failed they would be saved as an excel file with all the failing lanes in postgres, which could be downloaded and analyzed by the DNA team via Rest API.  
+    - Merchandise and Pricing Team (MAC) would send HDTCarrierGateway a tender response message via rest API with notes, response status and the shipment id. HDTCarrierGateway would publish that on a topic and HDTTender would consume that message and save the message in postgres. The publisher tried three times to publish to the topic and if all three times failed it would publish to the DLQ     
+* Used GitHub as source control and for CI/CD pipelines, deployed to GCP workloads.
+* Utilized Google logs and looker to debug issues.
+* Monitoring was done Prometheus and google health checks, verify the pod was up and running
+* Alertings were sent using google alerting and siren
+* upgrade mulitple legacy microservices service from java 8 to java 21. 
+* migraded multiple services from jenkins to github actions
+* I lead the effort to migrate multiple services from Tender and tracking to Carrier Invoice Management (CIM) team. Working with CIM and SRE engineers. The changes required terraform, configmap and migrating from oracle db to alloydb, GLBC configuration and multiple service request. I documented the steps in confluence and did a KT with my team on the process.
+* Wrote design document and went over technical designs with managers in miro.
+
+ ### Acquired‌ ‌Skills‌ ‌
+
+* Cloud 
+    - gcp 
+    - pcf
+    - kubernetes
+    - helm
+    - terriaform 
+* Testing
+    - mockito - unit test
+    - swagger
+* Monitoring
+    - prometheus  ‌
+    - siren
+    - google alerts
+* Work Environment
+    - TDD (test driven development)
+    - jira‌ ‌‌‌ ‌‌ ‌
+    - agile
+    - github actions
+    - production deployment (service now)
+* Backend tools
+    - pub/subs
+    - ‌spring boot (Java) 
+    - micro services
+* Databases
+    - Oracle SQL (Relational DB)
+    - postgresql (Relational DB)
+    - alloydb (Relational DB)
+
+
+
 ## Kohls, Menomonee Falls WI | June 2022 - February 2024
 
-### Spring boot developer
+### Java Spring Boot Engineer
 
 ### IFA Inventory Forecast Allocation team
 
@@ -67,9 +122,9 @@ confirmations.
 
 ------------------
 
-## Ford,‌ ‌Dearborn MI‌ | July‌ ‌2021‌ ‌-‌ ‌May 20‌22 ‌
+## Ford,‌ ‌Dearborn MI‌ | July‌ ‌2021‌ ‌-‌ ‌May 20‌22 (Contracted)
 
-### Spring boot developer
+### Java Spring Boot Engineer
 
 ### Global‌ ‌Ordering‌ ‌and Logistics team ‌
 
