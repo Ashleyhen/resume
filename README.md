@@ -49,6 +49,7 @@ Manages a suite of applications and processes to optimize transportation plannin
 * Backend tools
     - pub/subs
     - ‌spring boot (Java) 
+    - gradle 
     - micro services
 * Databases
     - Oracle SQL (Relational DB)
@@ -109,10 +110,12 @@ confirmations.
     - pipeline gitlab
     - production deployment (service now)
 * Backend tools
+    - gradle
+    - maven
     - kafka, zoo keeper and schema registries
     - nodejs 
     - spring batch
-    - ‌spring boot (Java) 
+    - spring boot (Java) 
     - micro services
 * Databases
     - Oracle SQL (Relational DB)
